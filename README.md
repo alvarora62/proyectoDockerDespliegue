@@ -23,10 +23,10 @@ Cada ejercicio tiene su propia carpeta con los archivos necesarios para su resol
 │ ├── instrucciones.md \
 │ ├── capturas/ \
 │ └── configuración/ \
-├── 📁 ejercicio-3 # Contenedores en red: Adminer y MariaDB \
-│ ├── comandos.md \
-│ ├── capturas/ \
-│ └── configuración/ \
+├── 📁 E3contenedoresRed \
+│ ├── contenedoresRed.md \
+│ ├── contenedoresRed.assets/ \
+│ └── consultas.sql \
 ├── 📁 ejercicio-4 # Docker Compose \
 │ ├── docker-compose.yaml \
 │ ├── instrucciones.md \
