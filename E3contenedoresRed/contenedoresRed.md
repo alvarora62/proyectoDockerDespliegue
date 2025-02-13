@@ -2,7 +2,9 @@
 
 > Álvaro Ronco Acebal y Guillermo Jesús Martín Pérez 
 
-**Introducción**
+[TOC]
+
+## Introducción
 
 En este ejercicio, se desplegarán dos contenedores en una red Docker:
 
@@ -13,7 +15,7 @@ La clave de este ejercicio es conectar ambos contenedores a través de una red b
 
 ------
 
-**Crear una red personalizada en Docker**
+## Crear una red personalizada en Docker
 
 Para que los contenedores puedan comunicarse, creamos una redllamada `redbdd`:
 
@@ -32,7 +34,7 @@ $docker network inspect
 
 ------
 
-**Crear el contenedor de MariaDB**
+## Crear el contenedor de MariaDB
 
 Ejecutamos un contenedor con la imagen oficial de MariaDB dentro de la red `redbd`:
 
@@ -58,7 +60,7 @@ Explicación de los parámetros:
 
 ------
 
-**Crear el contenedor de Adminer**
+## Crear el contenedor de Adminer
 
 Adminer es una interfaz web que permite gestionar bases de datos de forma gráfica. Se ejecuta con el siguiente comando:
 
@@ -74,8 +76,6 @@ Explicación de los parámetros:
 
   ![image-20250213092608535](./contenedoresRed.assets/image-20250213092608535.png)
 
-------
-
 Para comprobar que ambos contenedores estan funcionando correctamente podemos usar:
 
 ```bash
@@ -86,7 +86,7 @@ $docker ps
 
 ------
 
-**Acceder a Adminer**
+## Acceder a Adminer
 
 Para acceder a “adminer” abrimos un navegador y vasmos a la siguiente url:
 
@@ -107,7 +107,7 @@ Una vez en la pestaña anterior introducimos las credenciales de acceso creadas 
 
 ------
 
-**Crear una base de datos y una tabla desde Adminer**
+## Crear una base de datos y una tabla desde Adminer
 
 Dentro de Adminer, crea una nueva tabla con el siguiente SQL:
 
@@ -123,7 +123,7 @@ CREATE TABLE empleados (
 
 ------
 
-**Eliminar los contenedores, la red y los volúmenes**
+## Eliminar los contenedores, la red y los volúmenes
 
 Cuando terminemos de usar los contenedores, podemos eliminarlos con:
 
