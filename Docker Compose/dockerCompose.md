@@ -2,7 +2,7 @@
 
 [TOC]
 
-# Introducción
+## Introducción
 
 **Docker Compose** es una herramienta que permite definir y ejecutar múltiples contenedores Docker usando un archivo YAML. En este ejercicio, desplegaremos la aplicación `htop`, que es un monitor interactivo de procesos para sistemas Unix.
 
