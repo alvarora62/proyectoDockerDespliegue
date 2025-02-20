@@ -26,20 +26,21 @@ Cada ejercicio tiene su propia carpeta con los archivos necesarios para su resol
 ├── 📁 E3contenedoresRed \
 │ ├── contenedoresRed.md \
 │ ├── contenedoresRed.assets/ \
-│ └── consultas.sql \
+│ ├── consultas.sql \
+| └── contenedoresRed.pdf \
 ├── 📁 ejercicio-4 # Docker Compose \
-│ ├── docker-compose.yaml \
-│ ├── instrucciones.md \
-│ ├── capturas/ \
-│ └── explicación.pdf \
+│ ├── dockercompose.yaml \
+│ ├── dockerCompose.md \
+│ ├── dockerCompose.assets/ \
+│ └── dockerCompose.pdf \
 ├── 📁 ejercicio-5 # Imagen con Dockerfile - Aplicación web \
 │ ├── Dockerfile \
-│ ├── index.html \
+│ ├── index.php \
 │ ├── styles.css \
 │ ├── script.php \
-│ ├── capturas/ \
-│ ├── instrucciones.md \
-│ └── imagen-dockerhub.md \
+│ ├── E5ServidorWeb.assets/ \
+│ ├── E5ServidorWeb.md \
+│ └── E5ServidorWeb.pdf \
 └── 📄 README.md \
 
 ## 📌 Asignación de Tareas y Plazos
@@ -52,5 +53,5 @@ Ejercicio	Responsable	Estado	Plazo Estimado	Fecha Finalización
 
 ## 📌 Autores:
 
-[Alvaro Ronco Acebal]
-[Guillermo Jesus Martin Perez]
+- [Alvaro Ronco Acebal](https://github.com/alvarora62)
+- [Guillermo Jesus Martin Perez](https://github.com/GuillermoJMP)
