@@ -1,6 +1,0 @@
-services:
-  htop:
-    image: jess/htop
-    container_name: htop_container
-    stdin_open: true
-    tty: true
